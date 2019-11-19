@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "My riveting Nuxt.js project",
+  "author": "Søren Berg Glasius",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.3.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.1.0",
+    "nuxt": "^2.10.2",
+    "vue-async-function": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.7.2",
+    "@nuxt/typescript-build": "^0.3.4",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-jest": "^24.9.0",
+    "core-js": "^3.4.1",
+    "jest": "^24.9.0",
+    "vue-jest": "^4.0.0-0",
+    "typescript": "^3.7.2"
+  }
+}
